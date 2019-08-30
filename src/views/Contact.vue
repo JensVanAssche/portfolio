@@ -1,14 +1,20 @@
 <template>
   <div class="contact">
     <div>
-      <h1>Contact</h1>
-      <p>jens.va@hotmail.com</p>
-      <p>0470998575</p>
+      <h1>Ik Ben Jens</h1>
+      <p>Ik ben 22 jaar en afgestuudeerd in de richting Multimedia Technology aan de Karel de Grote Hogeschool. Mijn interesses zijn voornamelijk frontend development in React en Vue, maar ben ook niet vies van wat backend werk. Ik werk ook graag met Photoshop voor designing en Premiere voor video editing. Op deze site kan je mijn favoriet werk zien dat ik de afgelopen paar jaar heb gemaakt op de KdG.</p>
     </div>
     <div>
-      <h1>Links</h1>
+      <h2>Contact</h2>
+      <p>
+        jens.va@hotmail.com
+        <br />0470998575
+      </p>
+    </div>
+    <div>
+      <h2>Links</h2>
       <a href="https://github.com/JensVanAssche" target="_blank">Github</a>
-      <p></p>
+      <br />
       <a href="https://www.linkedin.com/in/jens-van-assche-98501a187/" target="_blank">LinkedIn</a>
     </div>
   </div>
@@ -22,10 +28,8 @@ export default {
 
 <style lang="scss">
 .contact {
-  display: flex;
-
   > div {
-    margin: 0 30px;
+    max-width: 900px;
   }
   a {
     color: #005092;
@@ -37,10 +41,6 @@ export default {
     &:hover {
       text-decoration: underline;
     }
-  }
-
-  p {
-    color: #005092;
   }
 }
 </style>

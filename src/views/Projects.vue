@@ -34,15 +34,6 @@
       github="https://github.com/JensVanAssche/NxT_portfolio"
     />
     <Project
-      title="Kowloon"
-      desc="Een oefening in accuraat en volledig een frontend namaken van een voorbeeld in Photoshop. Gemaakt met Vue."
-      link="https://kowloon-app.herokuapp.com/"
-      img1="kowloon1.png"
-      img2="kowloon2.png"
-      img3="kowloon3.png"
-      github="https://github.com/JensVanAssche/web_dev_kowloon"
-    />
-    <Project
       title="Giftly"
       desc="Giftly is een fictieve service waar je verrassingen kan kopen als cadeau. De opdracht was brainstormen voor een origineel en disruptief idee en daar de user experience van uitwerken. Niets technisch uitwerken, enkel UX design."
       link="https://giftlyapp.herokuapp.com/"
@@ -50,6 +41,15 @@
       img2="giftly2.png"
       img3="giftly3.png"
       github="https://github.com/JensVanAssche/giftly"
+    />
+    <Project
+      title="Kowloon"
+      desc="Een oefening in accuraat en volledig een frontend namaken van een voorbeeld in Photoshop. Gemaakt met Vue."
+      link="https://kowloon-app.herokuapp.com/"
+      img1="kowloon1.png"
+      img2="kowloon2.png"
+      img3="kowloon3.png"
+      github="https://github.com/JensVanAssche/web_dev_kowloon"
     />
   </div>
 </template>

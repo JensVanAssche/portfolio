@@ -4,7 +4,7 @@
       <h1>Jens Van Assche</h1>
       <router-link to="/">Projecten</router-link>
       <router-link to="/videos">Video's</router-link>
-      <router-link to="/contact">Contact</router-link>
+      <router-link to="/contact">Over Mij</router-link>
     </div>
     <router-view />
   </div>
