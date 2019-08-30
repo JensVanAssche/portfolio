@@ -15,7 +15,7 @@
     </div>
     <div>
       <h2>{{ title }}</h2>
-      <p>{{ desc }}</p>
+      <p style="white-space: pre-line;">{{ desc }}</p>
       <div class="links">
         <a :href="link" target="_blank">Demo</a> -
         <a :href="github" target="_blank">Github</a>

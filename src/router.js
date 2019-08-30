@@ -1,6 +1,8 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Projects from "./views/Projects.vue";
+import Videos from "./views/Videos.vue";
+import Contact from "./views/Contact.vue";
 
 Vue.use(Router);
 
@@ -14,11 +16,12 @@ export default new Router({
     {
       path: "/videos",
       name: "videos",
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () =>
-        import(/* webpackChunkName: "about" */ "./views/Videos.vue")
+      component: Videos
+    },
+    {
+      path: "/contact",
+      name: "contact",
+      component: Contact
     }
   ]
 });

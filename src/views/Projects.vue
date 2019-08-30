@@ -2,7 +2,11 @@
   <div class="projects">
     <Project
       title="Dixido"
-      desc="Dixido heb ik gemaakt als eindwerk aan de KdG. Het is een webapp voor kinderen met stemproblemen. Het platform bestaat uit verschillende spelletjes gemaakt in Phaser (een javascript framework) die bestuurbaar zijn met de stem. De spelletjes verschillen in moeilijkheidsgraad en oefenen telkens andere aspecten van de stem. Op Dixido kunnen ouders en leerkrachten ook inloggen om de prestaties van hun kinderen te kunnen volgen. Dit project is gemaakt met React, NodeJS en Phaser. Kijk bij videos voor het trailer filmpje."
+      desc="Dixido heb ik gemaakt als eindwerk aan de KdG. Het is een webapp voor kinderen met stemproblemen.
+      
+      Het platform bestaat uit verschillende spelletjes gemaakt in PhaserJS die bestuurbaar zijn met de stem. De spelletjes verschillen in moeilijkheidsgraad en oefenen telkens andere aspecten van de stem. De spelletjes zijn gebaseerd op bestaande logopedische oefeningen. Op Dixido kunnen ouders en leerkrachten ook inloggen om de prestaties van hun kinderen te kunnen volgen.
+
+      Dit project is gemaakt met React, Node en Phaser. Kijk bij videos voor het trailer filmpje."
       link="https://dixido-react.herokuapp.com/"
       img1="dixido1.png"
       img2="dixido2.png"
@@ -11,7 +15,9 @@
     />
     <Project
       title="BPM Detector"
-      desc="Een POC waar je een liedje kan opzoeken en het BPM er van krijgt. Je opgezochte liedje wordt gescraped van een mp3 hosting site en in een BPM algoritme gestoken. Gemaakt met Puppeteer voor webscraping en een zelf geschreven BPM detectie algoritme."
+      desc="Een POC waar je een liedje kan opzoeken en de app berekend het tempo van dat liedje. Je opgezochte liedje wordt gescraped van een mp3 hosting site en in een BPM algoritme gestoken.
+      
+      Gemaakt met Puppeteer voor webscraping en een zelf geschreven BPM detectie algoritme in javascript."
       link="https://bpmdetector.herokuapp.com/"
       img1="bpm1.png"
       img2="bpm2.png"
@@ -20,7 +26,7 @@
     />
     <Project
       title="NxT Media Portfolio"
-      desc="Een nieuwe portfolio site voor mijn studierichting. De focus ligt op een coole frontend en effecten om nieuwe studenten aan te trekken."
+      desc="Een nieuwe portfolio site voor de NxT Media studierichting van KdG. De focus ligt op een coole frontend en fancy effecten om nieuwe studenten aan te trekken."
       link="https://nxt-portfolio.herokuapp.com/"
       img1="nxt1.png"
       img2="nxt2.png"
@@ -38,7 +44,7 @@
     />
     <Project
       title="Giftly"
-      desc="Giftly is een fictieve service waar je verrassingen kan kopen als cadeau. De opdracht was brainstormen voor een origineel idee en de user experience ervan uitwerken. Niks technisch uitwerken, enkel de UX design van de site."
+      desc="Giftly is een fictieve service waar je verrassingen kan kopen als cadeau. De opdracht was brainstormen voor een origineel en disruptief idee en daar de user experience van uitwerken. Niets technisch uitwerken, enkel UX design."
       link="https://giftlyapp.herokuapp.com/"
       img1="giftly1.png"
       img2="giftly2.png"

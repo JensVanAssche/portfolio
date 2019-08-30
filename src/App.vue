@@ -4,12 +4,9 @@
       <h1>Jens Van Assche</h1>
       <router-link to="/">Projecten</router-link>
       <router-link to="/videos">Video's</router-link>
+      <router-link to="/contact">Contact</router-link>
     </div>
     <router-view />
-    <footer>
-      <a href="https://github.com/JensVanAssche" target="_blank">Github</a> -
-      <a href="https://www.linkedin.com/in/jens-van-assche-98501a187/" target="_blank">LinkedIn</a>
-    </footer>
   </div>
 </template>
 

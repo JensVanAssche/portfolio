@@ -12,7 +12,7 @@
     </div>
     <div>
       <h2>{{ title }}</h2>
-      <p>{{ desc }}</p>
+      <p style="white-space: pre-line;">{{ desc }}</p>
     </div>
   </div>
 </template>

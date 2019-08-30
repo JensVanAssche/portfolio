@@ -2,12 +2,12 @@
   <div class="videos">
     <Video
       title="What Are Algae, Animatie"
-      desc="Een animatie gemaakt in Adobe After Effects volgens een script."
+      desc="Een animatie over algen volgens een bestaand script. Gemaakt in Adobe After Effects."
       url="https://www.youtube.com/embed/Kt-PxcTLujg"
     />
     <Video
       title="3D Speaker Model"
-      desc="Een 3D model van de werking van een speaker. Gemaakt met Cinema 4D."
+      desc="Een 3D model van de interne werking van een luidspreker. Gemaakt met Cinema 4D."
       url="https://www.youtube.com/embed/Z24Yd3AH184"
     />
     <Video
@@ -22,7 +22,9 @@
     />
     <Video
       title="Dixido Trailer"
-      desc="De trailer voor mijn eindwerk, Dixido (lees hier meer over bij projecten). Editing in Adobe Premiere."
+      desc="De trailer voor mijn eindwerk, Dixido (lees hier meer over bij projecten). Ik heb contact opgezocht met een school voor zwakkere kinderen en daar user tests gaan afnemen. De beelden komen van die user tests. Het geeft een idee hoe de site gebruikt wordt in een realistische omgeving.
+      
+      Editing in Adobe Premiere."
       url="https://www.youtube.com/embed/asvpde_aR70"
     />
   </div>
