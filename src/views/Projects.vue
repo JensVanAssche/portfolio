@@ -1,0 +1,60 @@
+<template>
+  <div class="projects">
+    <Project
+      title="Dixido"
+      desc="Dixido heb ik gemaakt als eindwerk aan de KdG. Het is een webapp voor kinderen met stemproblemen. Het platform bestaat uit verschillende spelletjes gemaakt in Phaser (een javascript framework) die bestuurbaar zijn met de stem. De spelletjes verschillen in moeilijkheidsgraad en oefenen telkens andere aspecten van de stem. Op Dixido kunnen ouders en leerkrachten ook inloggen om de prestaties van hun kinderen te kunnen volgen. Dit project is gemaakt met React, NodeJS en Phaser. Kijk bij videos voor het trailer filmpje."
+      link="https://dixido-react.herokuapp.com/"
+      img1="dixido1.png"
+      img2="dixido2.png"
+      img3="dixido3.png"
+      github="https://github.com/JensVanAssche/Eindwerk"
+    />
+    <Project
+      title="BPM Detector"
+      desc="Een POC waar je een liedje kan opzoeken en het BPM er van krijgt. Je opgezochte liedje wordt gescraped van een mp3 hosting site en in een BPM algoritme gestoken. Gemaakt met Puppeteer voor webscraping en een zelf geschreven BPM detectie algoritme."
+      link="https://bpmdetector.herokuapp.com/"
+      img1="bpm1.png"
+      img2="bpm2.png"
+      img3="bpm3.png"
+      github="https://github.com/JensVanAssche/bpm_detector"
+    />
+    <Project
+      title="NxT Media Portfolio"
+      desc="Een nieuwe portfolio site voor mijn studierichting. De focus ligt op een coole frontend en effecten om nieuwe studenten aan te trekken."
+      link="https://nxt-portfolio.herokuapp.com/"
+      img1="nxt1.png"
+      img2="nxt2.png"
+      img3="nxt3.png"
+      github="https://github.com/JensVanAssche/NxT_portfolio"
+    />
+    <Project
+      title="Kowloon"
+      desc="Een oefening in accuraat en volledig een frontend namaken van een voorbeeld in Photoshop. Gemaakt met Vue."
+      link="https://kowloon-app.herokuapp.com/"
+      img1="kowloon1.png"
+      img2="kowloon2.png"
+      img3="kowloon3.png"
+      github="https://github.com/JensVanAssche/web_dev_kowloon"
+    />
+    <Project
+      title="Giftly"
+      desc="Giftly is een fictieve service waar je verrassingen kan kopen als cadeau. De opdracht was brainstormen voor een origineel idee en de user experience ervan uitwerken. Niks technisch uitwerken, enkel de UX design van de site."
+      link="https://giftlyapp.herokuapp.com/"
+      img1="giftly1.png"
+      img2="giftly2.png"
+      img3="giftly3.png"
+      github="https://github.com/JensVanAssche/giftly"
+    />
+  </div>
+</template>
+
+<script>
+import Project from "@/components/Project.vue";
+
+export default {
+  name: "Projects",
+  components: {
+    Project
+  }
+};
+</script>
