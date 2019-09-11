@@ -17,8 +17,9 @@
       <h2>{{ title }}</h2>
       <p style="white-space: pre-line;">{{ desc }}</p>
       <div class="links">
-        <a :href="link" target="_blank">Demo</a> -
+        <a :href="link" target="_blank">Demo</a>
         <a :href="github" target="_blank">Github</a>
+        <a v-if="github2" :href="github2" target="_blank">Github (Backend)</a>
       </div>
     </div>
   </div>
@@ -40,7 +41,8 @@ export default {
     img1: String,
     img2: String,
     img3: String,
-    github: String
+    github: String,
+    github2: String
   }
 };
 </script>
@@ -72,6 +74,7 @@ export default {
     a {
       color: #005092;
       text-decoration: none;
+      margin-right: 20px;
       &.router-link-exact-active {
         color: #ffffff;
         text-decoration: underline;

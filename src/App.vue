@@ -15,6 +15,10 @@ html {
   background-color: #287fc7;
   color: #ffffff;
 }
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
 #app {
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -24,9 +28,10 @@ html {
   align-items: center;
 }
 #nav {
-  padding: 30px;
   padding-bottom: 90px;
   text-align: center;
+  padding-top: 40px;
+  width: 100vw;
   h1 {
     font-size: 4rem;
     text-shadow: 5px 5px 0px #000000;

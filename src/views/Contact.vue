@@ -2,7 +2,7 @@
   <div class="contact">
     <div>
       <h1>Ik Ben Jens</h1>
-      <p>Ik ben 22 jaar en afgestuudeerd in de richting Multimedia Technology aan de Karel de Grote Hogeschool. Mijn interesses zijn voornamelijk frontend development in React en Vue, maar ben ook niet vies van wat backend werk. Ik werk ook graag met Photoshop voor designing en Premiere voor video editing. Op deze site kan je mijn favoriet werk zien dat ik de afgelopen paar jaar heb gemaakt op de KdG.</p>
+      <p>Ik ben 22 jaar en afgestuudeerd in de richting Multimedia Technology aan de Karel de Grote Hogeschool. Mijn interesses zijn voornamelijk frontend development in React en Vue, maar ben ook niet vies van wat backend werk. Ik werk ook graag met Photoshop voor designing en Premiere voor video editing. Op deze site kan je mijn favoriete werk zien dat ik de afgelopen paar jaar heb gemaakt op de KdG.</p>
     </div>
     <div>
       <h2>Contact</h2>
@@ -10,8 +10,6 @@
         jens.va@hotmail.com
         <br />0470998575
       </p>
-    </div>
-    <div>
       <h2>Links</h2>
       <a href="https://github.com/JensVanAssche" target="_blank">Github</a>
       <br />
@@ -28,8 +26,15 @@ export default {
 
 <style lang="scss">
 .contact {
-  > div {
-    max-width: 900px;
+  max-width: 900px;
+  display: flex;
+
+  > div:first-child {
+    width: 70%;
+  }
+  > div:last-child {
+    width: 30%;
+    text-align: right;
   }
   a {
     color: #005092;
