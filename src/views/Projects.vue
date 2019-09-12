@@ -6,7 +6,9 @@
       
       Het platform bestaat uit verschillende spelletjes gemaakt in PhaserJS die bestuurbaar zijn met de stem. De spelletjes verschillen in moeilijkheidsgraad en oefenen telkens andere aspecten van de stem. De spelletjes zijn gebaseerd op bestaande logopedische oefeningen. Op Dixido kunnen ouders en leerkrachten ook inloggen om de prestaties van hun kinderen te kunnen volgen.
 
-      Dit project is gemaakt met React, Node en Phaser. Kijk bij video's voor het trailer filmpje."
+      Dit project is gemaakt met React, Node en Phaser. Kijk bij video's voor het trailer filmpje.
+      
+      (Als je de demo voor het eerst opent duurt het een beetje en dan crashed de app. Je moet hierna opnieuw proberen en dan werkt het wel. Dit is een probleem met Heroku.)"
       link="https://dixido-nodejs.herokuapp.com/demo"
       img1="dixido1.png"
       img2="dixido2.png"
