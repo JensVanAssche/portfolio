@@ -42,6 +42,7 @@ body {
   width: 100vw;
   position: relative;
   padding-bottom: 50px;
+  overflow-x: hidden;
   h1 {
     font-size: 4rem;
     text-shadow: 5px 5px 0px #001e36;
@@ -64,7 +65,8 @@ body {
   }
   .blue-background {
     background: #005092;
-    width: 100%;
+    margin-left: -20px;
+    width: 110%;
     height: 375px;
     transform: rotate(2deg) translateY(-50px);
   }
@@ -87,7 +89,8 @@ body {
   padding-top: 50px;
   .blue-background {
     background: #005092;
-    width: 100%;
+    margin-left: -20px;
+    width: 110%;
     height: 200px;
     transform: rotate(2deg) translateY(50px);
   }
