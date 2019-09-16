@@ -41,7 +41,7 @@ body {
   padding-bottom: 50px;
   h1 {
     font-size: 4rem;
-    text-shadow: 5px 5px 0px #000000;
+    text-shadow: 5px 5px 0px #001e36;
   }
   a {
     font-weight: bold;
@@ -51,10 +51,11 @@ body {
     text-decoration: none;
     &.router-link-exact-active {
       color: #ffffff;
-      text-decoration: underline;
+      text-shadow: 3px 3px 0px #001e36;
     }
     &:hover {
-      text-decoration: underline;
+      transition: 0.1s;
+      text-shadow: 3px 3px 0px #001e36;
     }
   }
   .blue-background {

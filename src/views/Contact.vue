@@ -2,7 +2,11 @@
   <div class="contact">
     <div>
       <h1>Ik Ben Jens</h1>
-      <p>Ik ben 22 jaar en afgestuudeerd in de richting Multimedia Technology aan de Karel de Grote Hogeschool. Mijn interesses zijn voornamelijk frontend development in React en Vue, maar ben ook niet vies van wat backend werk. Ik werk ook graag met Photoshop voor designing en Premiere voor video editing. Op deze site kan je mijn favoriete werk zien dat ik de afgelopen paar jaar heb gemaakt op de KdG.</p>
+      <p>
+        Ik ben 22 jaar en afgestudeerd in de richting Multimedia Technology aan de Karel de Grote Hogeschool. Mijn interesses zijn voornamelijk frontend development in React en Vue, maar ben ook niet vies van wat backend werk.
+        <br />
+        <br />Ik werk ook graag met Photoshop voor designing en Premiere voor video editing. Op deze site kan je mijn favoriete werk zien dat ik de afgelopen paar jaar heb gemaakt op de KdG.
+      </p>
     </div>
     <div>
       <h2>Contact</h2>
@@ -35,6 +39,13 @@ export default {
   > div:last-child {
     width: 30%;
     text-align: right;
+  }
+  h1 {
+    font-size: 2rem;
+    text-shadow: 3px 3px 0px #001e36;
+  }
+  h2 {
+    text-shadow: 3px 3px 0px #001e36;
   }
   a {
     color: #005092;
