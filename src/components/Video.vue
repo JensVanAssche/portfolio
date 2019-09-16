@@ -36,7 +36,13 @@ export default {
   margin-bottom: 50px;
 
   iframe {
-    margin-right: 30px;
+    margin-right: 50px;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin-top: 15px;
+    text-shadow: 3px 3px 0px #000000;
   }
 }
 </style>

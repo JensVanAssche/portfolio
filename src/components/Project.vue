@@ -52,12 +52,12 @@ export default {
   display: flex;
   flex-direction: row;
   max-width: 1120px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 
   .VueCarousel {
     width: 560px;
     height: auto;
-    margin-right: 60px;
+    margin-right: 50px;
 
     img {
       width: 560px;
@@ -67,6 +67,12 @@ export default {
 
   .VueCarousel-navigation-button[data-v-453ad8cd]:focus {
     outline: none;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin-top: 15px;
+    text-shadow: 3px 3px 0px #000000;
   }
 
   .links {
