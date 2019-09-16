@@ -45,4 +45,22 @@ export default {
     text-shadow: 3px 3px 0px #001e36;
   }
 }
+
+@media only screen and (max-width: 1000px) {
+  .video {
+    flex-direction: column;
+    iframe {
+      margin-bottom: 20px;
+      margin-right: 0px;
+    }
+  }
+}
+
+@media only screen and (max-width: 635px) {
+  .video {
+    iframe {
+      width: 100%;
+    }
+  }
+}
 </style>

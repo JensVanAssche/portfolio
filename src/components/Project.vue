@@ -60,7 +60,7 @@ export default {
     margin-right: 50px;
 
     img {
-      width: 560px;
+      width: 100%;
       height: auto;
     }
   }
@@ -76,7 +76,6 @@ export default {
   }
 
   .links {
-    color: #005092;
     a {
       color: #005092;
       text-decoration: none;
@@ -88,6 +87,29 @@ export default {
       &:hover {
         text-decoration: underline;
       }
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .project {
+    flex-direction: column;
+    .VueCarousel {
+      margin-bottom: 20px;
+      margin-right: 0px;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 635px) {
+  .project {
+    .VueCarousel {
+      width: 100%;
     }
   }
 }

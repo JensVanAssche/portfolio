@@ -35,6 +35,7 @@ export default {
 
   > div:first-child {
     width: 70%;
+    padding-right: 20px;
   }
   > div:last-child {
     width: 30%;
@@ -46,6 +47,7 @@ export default {
   }
   h2 {
     text-shadow: 3px 3px 0px #001e36;
+    margin-bottom: 10px;
   }
   a {
     color: #005092;
@@ -56,6 +58,20 @@ export default {
     }
     &:hover {
       text-decoration: underline;
+    }
+  }
+}
+
+@media only screen and (max-width: 635px) {
+  .contact {
+    display: inline;
+    > div:first-child {
+      width: 100%;
+      padding-right: 0px;
+    }
+    > div:last-child {
+      width: 100%;
+      text-align: left;
     }
   }
 }

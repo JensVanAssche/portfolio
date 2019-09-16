@@ -61,18 +61,19 @@ body {
   .blue-background {
     background: #005092;
     width: 110%;
-    height: 350px;
+    height: 375px;
     transform: rotate(2deg) translateY(-50px);
   }
   .nav-content {
     position: absolute;
     top: 50px;
-    width: 100vw;
+    width: calc(100vw - 60px);
     text-align: center;
+    padding: 0 30px;
   }
 }
 #main {
-  min-height: calc(100vh - 570px);
+  min-height: calc(100vh - 595px);
   padding: 0 30px;
 }
 #footer {
@@ -85,6 +86,22 @@ body {
     width: 110%;
     height: 200px;
     transform: rotate(2deg) translateY(50px);
+  }
+}
+@media only screen and (max-width: 595px) {
+  #nav {
+    padding-bottom: 0px;
+    .nav-content {
+      top: 0;
+    }
+  }
+
+  #main {
+    min-height: calc(100vh - 545px);
+  }
+
+  #footer {
+    padding-top: 0px;
   }
 }
 </style>
