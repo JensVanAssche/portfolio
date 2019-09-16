@@ -60,6 +60,7 @@ export default {
   .video {
     iframe {
       width: 100%;
+      height: auto;
     }
   }
 }

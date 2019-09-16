@@ -19,6 +19,9 @@
 </template>
 
 <style lang="scss">
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700&display=swap");
+
 html {
   background-color: #287fc7;
   color: #ffffff;
@@ -42,6 +45,7 @@ body {
   h1 {
     font-size: 4rem;
     text-shadow: 5px 5px 0px #001e36;
+    font-weight: 1000;
   }
   a {
     font-weight: bold;
@@ -60,7 +64,7 @@ body {
   }
   .blue-background {
     background: #005092;
-    width: 110%;
+    width: 100%;
     height: 375px;
     transform: rotate(2deg) translateY(-50px);
   }
@@ -83,12 +87,13 @@ body {
   padding-top: 50px;
   .blue-background {
     background: #005092;
-    width: 110%;
+    width: 100%;
     height: 200px;
     transform: rotate(2deg) translateY(50px);
   }
 }
-@media only screen and (max-width: 595px) {
+
+@media only screen and (max-width: 616px) {
   #nav {
     padding-bottom: 0px;
     .nav-content {
@@ -102,6 +107,20 @@ body {
 
   #footer {
     padding-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #nav {
+    a {
+      margin: 0;
+      display: block;
+      padding-bottom: 10px;
+    }
+
+    .blue-background {
+      height: 450px;
+    }
   }
 }
 </style>

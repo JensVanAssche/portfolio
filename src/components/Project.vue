@@ -77,6 +77,7 @@ export default {
 
   .links {
     a {
+      font-weight: bold;
       color: #005092;
       text-decoration: none;
       margin-right: 20px;
@@ -102,6 +103,10 @@ export default {
         width: 100%;
         height: auto;
       }
+    }
+
+    h2 {
+      margin-bottom: 10px;
     }
   }
 }
