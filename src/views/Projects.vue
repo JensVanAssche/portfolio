@@ -1,6 +1,20 @@
 <template>
   <div class="projects">
     <Project
+      title="Spinnaker Sport website"
+      desc="Een website gemaakt voor Spinnaker Sport; een sportclub voor kinderen, jongeren en volwassenen met een fysieke en/of verstandelijke beperking. Dit project is de nieuwe officiele website van de club, gemaakt nauw in samenwerking met de voorzitter. Dit was een heel uitgebreid project met een frontend in React en Redux en een backend in NodeJS. De website moet veel kunnen: foto's en pdf's kunnen hosten; scores, standen, nieuws artikels en andere informatie toevoegen en nog veel meer.
+      
+      De website heeft een zelfgemaakt dashboard waarop een admin kan inloggen met een wachtwoord. Hier kan hij/zij informatie aanpassen en toevoegen, foto's uploaden en verwijderen, artikels aanmaken, scoren en standen van competities uploaden, etc.
+      
+      De site staat nu live op spinnaker-sport.be"
+      link="https://spinnaker-sport.be/"
+      img1="spinnaker1.png"
+      img2="spinnaker2.png"
+      img3="spinnaker3.png"
+      github="https://github.com/JensVanAssche/spinnaker-front"
+      github2="https://github.com/JensVanAssche/spinnaker-back"
+    />
+    <Project
       title="Dixido"
       desc="Dixido heb ik gemaakt als eindwerk aan de KdG. Het is een webapp voor kinderen met stemproblemen.
       
