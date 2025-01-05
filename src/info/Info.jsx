@@ -1,5 +1,6 @@
 import Tv from "../assets/tv.png";
 import Me from "../assets/me.png";
+import CV from "../assets/CV.pdf";
 
 import "./info.scss";
 
@@ -59,10 +60,7 @@ function Info() {
               ► LinkedIn
             </a>
             <br />
-            <a
-              href="https://www.linkedin.com/in/jens-van-assche-98501a187/"
-              target="_blank"
-            >
+            <a href={CV} target="_blank">
               ► CV
             </a>
           </p>

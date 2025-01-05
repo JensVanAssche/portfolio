@@ -113,6 +113,10 @@
 
 @media screen and (max-width: 600px) {
     #img {
-        max-width: 20rem;
+        max-width: 15rem;
+
+        #img-play {
+            font-size: 0.5rem;
+        }
     }
 }
