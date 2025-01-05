@@ -1,0 +1,66 @@
+[
+    {
+        "title": "SPINNAKER SPORT WEBSITE",
+        "description": "Een simpele CMS website die ik vlak na afstuderen freelance heb ontworpen, ontwikkeld en host. Beheerders kunnen zich inloggen in een content management system en tekst, foto's en nieuwsartikels bewerken. De front-end is gemaakt met React, de back-end met Node en PostgreSQL.",
+        "links": [
+            {
+                "url": "https://spinnaker-sport.be",
+                "text": "Bezoek de website"
+            },
+            {
+                "url": "https://github.com/JensVanAssche/spinnaker-front",
+                "text": "GitHub repository"
+            }
+        ]   
+    },
+    {
+        "title": "VOOR'TLEVEN PODCAST",
+        "description": "Een lopende podcast over verhalen van mijn grootouders. Opnames en audiomontage door mij, d.m.v Audacity en Audition.",
+        "links": [
+            {
+                "url": "https://open.spotify.com/show/3xalrctStF0toaDs3OZCk2?si=51788dfd69444879",
+                "text": "Beluister de eerste aflevering op Spotify"
+            }
+        ]
+    },
+    {
+        "title": "DEELNAME AAN GAMEJAMS",
+        "description": "Met een klein team van vrienden neem ik deel aan verschillende gamejams. De opzet is een videospel ontwikkelen binnen 48 uur. Dit houdt in ontwerpen, programmeren, assets, audio en muziek creëren, en efficiënt in team werken. Technologieën houden zaken in zoals C# en Python, Photoshop, After Effects, en FL Studio",
+        "links": [
+            {
+                "url": "https://kitelesss.itch.io/",
+                "text": "Bezoek mijn itch.io pagina"
+            }
+        ]
+    },
+    {
+        "title": "CAFÉ COUSINS",
+        "description": "Café Cousins is een feestconcept dat ik met vrienden organiseer in Antwerpen. Ik werk mee aan logistieke zaken zoals licht en geluid. De aftermovie is ook door mij gemonteerd in Premiere.",
+        "links": [
+            {
+                "url": "https://www.instagram.com/reel/DCPQhhFueR7/",
+                "text": "Bekijk de aftermovie hier"
+            }
+        ]
+    },
+    {
+        "title": "DÉHORA KENNISDAG",
+        "description": "Opname en montage (in Premiere) voor mijn oude werkgever, Déhora, tijdens een kennisdag in Mechelen.",
+        "links": [
+            {
+                "url": "https://www.instagram.com/p/DB_DmH3CcwM/",
+                "text": "Bekijk het filmpje hier"
+            }
+        ]
+    },
+    {
+        "title": "FORMAAT VLAANDEREN",
+        "description": "Een montage dat ik heb gedaan voor jongerenvereniging Formaat in Premiere.",
+        "links": [
+            {
+                "url": "https://www.youtube.com/watch?v=1a9DPNSV7i0",
+                "text": "Bekijk het filmpje hier"
+            }
+        ]
+    }
+]
